@@ -1,0 +1,12 @@
+{
+  "name": "herald-web-template",
+  "version": "1.0.0",
+  "description": "信使计划前端项目模板",
+  "main": "index.js",
+  "repository": "https://github.com/HeraldStudio/herald-web-template.git",
+  "author": "wolf-tungsten <canis.tungsten@foxmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
