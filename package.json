@@ -6,7 +6,27 @@
   "repository": "https://github.com/HeraldStudio/herald-web-template.git",
   "author": "wolf-tungsten <canis.tungsten@foxmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./public/index.html --port=8080",
+    "build": "parcel build ./public/index.html --public-url //cdn.xgbxscwx.myseu.cn/;"
+  },
   "dependencies": {
-    "parcel-bundler": "^1.12.4"
+    "axios": "^0.19.2",
+    "babel-polyfill": "^6.26.0",
+    "element-ui": "^2.13.0",
+    "parcel-bundler": "^1.12.4",
+    "vue": "^2.5.17",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-router": "^3.1.6",
+    "vuex": ">=2.5",
+    "vuex-persist": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@vue/babel-preset-app": "^4.2.3",
+    "@vue/component-compiler-utils": "^3.1.1",
+    "babel-plugin-component": "^1.1.1",
+    "less": "^3.11.1",
+    "vue-template-compiler": "^2.6.11"
   }
 }
